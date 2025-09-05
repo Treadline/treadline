@@ -1,0 +1,78 @@
+/* Treadline Tire Repair Landing Page Styles */
+:root {
+  --primary: #1a2327; /* deep blue/black from tire */
+  --accent: #e6b800; /* gold/yellow from tread */
+  --background: #f4f4f4;
+  --white: #fff;
+  --gray: #e0e0e0;
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--background) 60%, var(--gray) 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
+}
+.container {
+  background: var(--white);
+  box-shadow: 0 8px 32px 0 rgba(26,35,39,0.15);
+  border-radius: 24px;
+  padding: 3em 2.5em 2.5em 2.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 2em auto;
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 4px 16px 0 rgba(26,35,39,0.10);
+  margin-bottom: 1.5em;
+  background: var(--gray);
+  border: 4px solid var(--accent);
+}
+h1 {
+  font-family: 'Oswald', 'Segoe UI', Arial, sans-serif;
+  font-size: 2.5em;
+  margin: 0 0 0.5em 0;
+  color: var(--primary);
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: center;
+}
+.subtitle {
+  font-size: 0.7em;
+  font-weight: 400;
+  color: var(--primary);
+  letter-spacing: 1px;
+}
+}
+.accent-bar {
+  width: 60px;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 3px;
+  margin: 0.5em auto 1.5em auto;
+}
+p {
+  font-size: 1.25em;
+  color: #444;
+  text-align: center;
+  margin-bottom: 2em;
+}
+@media (max-width: 500px) {
+  .container {
+    padding: 2em 1em 1.5em 1em;
+    max-width: 95vw;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
