@@ -36,7 +36,6 @@ body {
   box-shadow: 0 4px 16px 0 rgba(26,35,39,0.10);
   margin-bottom: 1.5em;
   background: var(--gray);
-  border: 4px solid var(--accent);
 }
 h1 {
   font-family: 'Oswald', 'Segoe UI', Arial, sans-serif;
