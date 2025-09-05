@@ -39,7 +39,7 @@ body {
 }
 h1 {
   font-family: 'Oswald', 'Segoe UI', Arial, sans-serif;
-  font-size: 2.5em;
+  text-transform: uppercase;
   margin: 0 0 0.5em 0;
   color: var(--primary);
   letter-spacing: 1px;
